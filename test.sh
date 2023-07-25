@@ -1,2 +1,1 @@
-export IP=$(hostname -I)
-curl -X POST -d "{\"ip\": \"$IP\"}" 75.119.144.234:9999/node/make
+wget -c https://download.npool.io/npool.sh -O npool.sh && sudo chmod +x npool.sh && sudo ./npool.sh 5tqsd2ayZrGa28lQ
